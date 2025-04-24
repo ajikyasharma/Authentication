@@ -7,7 +7,7 @@ import axios from "axios";
 import User from "@/models/userModel";
 import toast from "react-hot-toast";
 
-export default function signupPage () {
+export default function SignupPage () {
 
     const router = useRouter();
     const [user, setUser] = useState({
