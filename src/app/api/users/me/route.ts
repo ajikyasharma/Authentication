@@ -16,7 +16,7 @@ export async function GET(request: NextRequest){
         })
         
     } catch ( error: any) {
-        console.log("Error in fetching data", error)
+        // console.log("Error in fetching data", error)
         return NextResponse.json({error: error.message},{status:400})
         
     }
